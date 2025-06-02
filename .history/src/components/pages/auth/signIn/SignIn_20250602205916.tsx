@@ -1,7 +1,6 @@
 import { LockClosedIcon, UserIcon } from "@heroicons/react/16/solid";
 import axios from "axios";
 import { useState } from "react";
-import { Link } from "react-router-dom";
 import { toast } from "sonner";
 const Signin = () => {
   const [username, setUsername] = useState("");
@@ -194,9 +193,7 @@ const Signin = () => {
             </button>
           </div>
         </form>
-        <h1 className="mt-4 text-center">Do not have an account? 
-          <Link to="/signup" className="text-indigo-600 hover:text-indigo-500">Sign up</Link>
-        </h1>
+        <h1>Do</h1>
       </div>
     </div>
   );

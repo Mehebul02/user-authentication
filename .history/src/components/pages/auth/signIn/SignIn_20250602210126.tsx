@@ -194,7 +194,7 @@ const Signin = () => {
             </button>
           </div>
         </form>
-        <h1 className="mt-4 text-center">Do not have an account? 
+        <h1 className="mt-4 te">Do not have an account? 
           <Link to="/signup" className="text-indigo-600 hover:text-indigo-500">Sign up</Link>
         </h1>
       </div>
